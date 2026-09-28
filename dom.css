@@ -1,23 +1,50 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #4c74e1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+    font-family: Arial;
+    background-color: lightgray;
+    margin: 0;
+    padding: 30px;
 }
 
 .card {
-  width: 350px;
-  padding: 25px;
-  background-color: rgb(215, 192, 192);
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(51, 169, 12, 0.2);
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
+#studentName {
+    text-align: center;
+    color: blue;
+}
 
+p {
+    font-size: 18px;
+}
 
+h3 {
+    color: green;
+}
 
+ul {
+    background-color: lightgray;
+    padding: 15px;
+}
 
+li {
+    margin: 5px;
+}
 
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 
+button:hover {
+    background-color: darkblue;
+}
